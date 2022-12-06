@@ -1,0 +1,121 @@
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/img/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+nav{
+     background-color : rgba(255, 255, 255, 0) !important; 
+}
+a{
+    text-decoration: none !important;
+}
+.navbar-nav{
+    position: absolute;
+    right: 1%;
+}
+.msg-top{
+    margin-top: 30px;
+}
+.top-card{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.top-card-dash{
+    margin-top: 15%;
+}
+.card{
+    width: 20rem;
+    box-shadow: 5px 7px 25px #e8008b;
+    border: 1px solid #e8008b !important;
+}
+.form-control{
+    border-radius: 25px !important;
+}
+@keyframes jedag-jedug {
+    0% {transform: scale(.8);}
+    50% {transform: scale(1);}
+    100% {transform: scale(.8);}
+}
+img{
+    margin-bottom: 20px;
+    animation-name: jedag-jedug;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+}
+.btn{
+    border-radius: 10px !important;
+    border: 1px solid #e8008b !important;
+    color: #e8008b !important;
+    margin-left: 73%;
+
+}
+.txt{
+    color: #e8008b !important;
+}
+.kata{
+    margin-top: 7px;
+    text-align: center;
+}
+.center-text{
+    font-weight: 150 !important;
+}
+textarea{
+    width: 100%;
+    border-radius: 10px !important;
+
+}
+table{
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+.edit{
+    margin-right: 1%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1e9f63;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+a.edit:hover{
+    color: white;
+}
+.hapus{
+    margin-right: 1%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ef2a3e;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+.done{
+    margin-left: 3%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #c7d227;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+.no{
+    max-width: 50px;
+}
+.title{
+    max-width: 200px;
+}
+.isi{
+    max-width: 20rem;
+}
+.date{
+    max-width: 300px;
+}
+.status{
+    max-width: 200px;
+}
